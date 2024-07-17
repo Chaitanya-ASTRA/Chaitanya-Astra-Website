@@ -1,0 +1,492 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--poppins-font-colour);
+    color: #fff;
+}
+
+:root {
+    --poppins-font-colour: 'poppins', sans-serif;
+    --hover-orange: #cd5700;
+}
+
+.body-ind, .body-abt, .body-rov, .body-rpl, .body-sat, .body-csev, .body-asev, .body-llev, .body-seev, .body-acev, .body-ssev, .body-rrev, .body-epeev {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.body-ind {
+    background-image: url(./../Images/Hero_Section_Image_1.jpg);
+}
+
+.body-abt {
+    background-image: url(./../Images/about_team_image.jpg);
+}
+
+.body-rov {
+    background-image: url(./../Images/Rover_team_img_bottom.png);
+}
+
+.body-rpl {
+    background-image: url(./../Images/Rocket_team_img.png);
+}
+
+.body-sat {
+    background-image: url(./../Images/Satellite_team_img_bottom.png);
+}
+
+.body-csev {
+    background-image: url(./../Images/Circuit_Showdown_Web.png);
+}
+
+.body-asev {
+    background-image: url(./../Images/Aero_Spectra_Web.png);
+}
+
+.body-llev {
+    background-image: url(./../Images/Luminary_lens_Web.png);
+}
+
+.body-seev {
+    background-image: url(./../Images/Star_Expo_Web.png);
+}
+
+.body-acev {
+    background-image: url(./../Images/Artemis_Crew_Web.png);
+}
+
+.body-ssev {
+    background-image: url(./../Images/Space_Splash_Web.png);
+}
+
+.body-rrev {
+    background-image: url(./../Images/Rocket_rundown_Web.png);
+}
+
+.body-epeev {
+    background-image: url(./../Images/Extraplanetry_Estates_Web.png);
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-section {
+    width: 100%;
+    height: 1024px;
+    border: #000;
+}
+
+.hero-section {
+    height: 1024px;
+}
+
+.container-header, .container-header-abt {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.container-header-abt {
+    background-color: #000;
+}
+
+.nav-bar {
+    width: 1235px;
+    height: 25px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    z-index: 1000;
+}
+
+.nav-bar img {
+    height: 20px;
+    margin-right: 785px;
+}
+
+.nav-links {
+    font-size: 16px;
+}
+
+.nav {
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.cta {
+    text-decoration: none;
+}
+
+.hero-image, .hero-image-rov, .hero-image-sat, .hero-image-abt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 950px;
+}
+
+.hero-image-rov, .hero-image-sat {
+    position: relative;
+}
+
+.hero-image img {
+    width: 793px;
+    margin-top: 300px;
+    height: 150px;
+}
+
+.hero-image-abt img {
+    width: 500px;
+    margin-top: 400px;
+    height: 100px;
+}
+
+.hero-image-rov img {
+    margin-top: -100px;
+    position: absolute;
+    width: 1920px;
+    z-index: 1;
+}
+
+.hero-image-sat img {
+    margin-top: 280px;
+    position: absolute;
+    height: 500px;
+}
+
+.quote {
+    font-size: 65px;
+    font-weight: 600;
+}
+
+.quote-abt {
+    font-size: 45px;
+    font-weight: 600;
+    color: #fff;
+    z-index: 1;
+    text-shadow: 0.6px 0.6px #000;
+}
+
+.quote-rov {
+    margin-top: 350px;
+    font-size: 100px;
+    font-weight: 600;
+    mix-blend-mode: overlay;
+}
+
+.quote-rpl {
+    margin-top: 350px;
+    font-size: 72px;
+    font-weight: 600;
+    mix-blend-mode: overlay;
+    text-align: center;
+}
+
+.quote-sat {
+    margin-top: 359px;
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.quote-event {
+    margin-top: 650px;
+    font-size: 32px;
+    font-weight: 600;
+    background-color: #fff;
+    height: 70px;
+    width: 270px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-event:hover {
+    background-color: #000;
+}
+
+.quote-event:hover > a {
+    color: #fff;
+}
+
+.quote-event a {
+    color: #000;
+}
+
+.celeste-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 150px;
+    overflow: hidden;
+}
+
+.celeste-section video {
+    height: 1390px;
+    width: 1915px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.celeste-title-holder {
+    height: 48px;
+    margin-top: 150px;
+}
+
+@font-face {
+    font-family: helion;
+    src: url(Helion\ W00\ Regular.ttf);
+}
+
+.celeste-title0, .celeste-title, .celeste-title2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: -1390px;
+    transition-duration: 200ms;
+    font-family: helion;
+    border-bottom: 2px solid red;
+}
+
+.celeste-title:hover {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.celeste-events {
+    height: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -1240px;
+}
+
+.circuit-Showdown-1 {
+    position: relative;
+    height: 225px;
+    width: 400px;
+    margin-right: 25px;
+    transition-duration: 150ms;
+    border-radius: 15px;
+}
+
+.circuit-Showdown-1:hover {
+    background-color: #fff;
+    font-weight: 500;
+}
+
+.circuit-Showdown-1 img {
+    position: absolute;
+    height: 180px;
+    width: 342;
+    mix-blend-mode: luminosity;
+    margin-top: 20px;
+    margin-left: 29px;
+    transition-duration: 150ms;
+    border-radius: 15px;
+}
+
+.circuit-Showdown-1:hover img {
+    position: absolute;
+    height: 200px;
+    width: 380;
+    mix-blend-mode: normal;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.circuit-Showdown-1 p {
+    position: absolute;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 238px;
+    margin-left: 29px;
+    transition-duration: 150ms;
+}
+
+.circuit-Showdown-1:hover p {
+    position: absolute;
+    font-size: 28px;
+    color: #000;
+    font-weight: 500;
+    margin-top: 238px;
+    margin-left: 10px;
+}
+
+.circuit-Showdown {
+    position: relative;
+    height: 225px;
+    width: 400px;
+    transition-duration: 150ms;
+    border-radius: 15px;
+}
+
+.circuit-Showdown:hover {
+    background-color: #fff;
+    font-weight: 500;
+}
+
+.circuit-Showdown img {
+    position: absolute;
+    height: 180px;
+    width: 342px;
+    mix-blend-mode: luminosity;
+    margin-top: 20px;
+    margin-left: 29px;
+    transition-duration: 150ms;
+    border-radius: 15px;
+}
+
+.circuit-Showdown:hover img {
+    position: absolute;
+    height: 200px;
+    width: 380px;
+    mix-blend-mode: normal;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.circuit-Showdown p {
+    position: absolute;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 238px;
+    margin-left: 29px;
+    transition-duration: 150ms;
+}
+
+.circuit-Showdown:hover p {
+    position: absolute;
+    font-size: 28px;
+    color: #000;
+    font-weight: 500;
+    margin-top: 238px;
+    margin-left: 10px;
+}
+
+.celeste-events-1 {
+    height: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.celeste-events-2 {
+    height: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #000;
+    width: 100%;
+}
+
+.footer-content p {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1200px) {
+    .hero-image img, .hero-image-abt img, .hero-image-rov img, .hero-image-sat img {
+        width: 100%;
+        height: auto;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links {
+        font-size: 14px;
+    }
+
+    .nav {
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+    .hero-section, .main-section, .celeste-section {
+        height: auto;
+    }
+
+    .quote, .quote-abt, .quote-rov, .quote-rpl, .quote-sat, .quote-event {
+        font-size: 80%;
+    }
+
+    .celeste-events, .celeste-events-1, .celeste-events-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .circuit-Showdown, .circuit-Showdown-1 {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-links {
+        font-size: 12px;
+    }
+
+    .nav {
+        margin-right: 10px;
+        margin-bottom: 8px;
+    }
+
+    .quote, .quote-abt, .quote-rov, .quote-rpl, .quote-sat, .quote-event {
+        font-size: 70%;
+    }
+
+    .circuit-Showdown, .circuit-Showdown-1 {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .nav-bar img {
+        height: 16px;
+    }
+
+    .nav-links {
+        font-size: 10px;
+    }
+
+    .nav {
+        margin-right: 5px;
+        margin-bottom: 6px;
+    }
+
+    .quote, .quote-abt, .quote-rov, .quote-rpl, .quote-sat, .quote-event {
+        font-size: 60%;
+    }
+
+    .circuit-Showdown, .circuit-Showdown-1 {
+        width: 100%;
+    }
+}

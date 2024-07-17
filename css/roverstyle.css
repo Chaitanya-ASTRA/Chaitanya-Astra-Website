@@ -1,0 +1,398 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--poppins-font-colour);
+    color: #fff;
+}
+
+:root {
+    --poppins-font-colour: 'poppins', sans-serif;
+    --hover-orange: #cd5700;
+}
+
+.body-rov {
+    background-image: url(./../Images/Rover_team_img_bottom.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-section {
+    width: 100%;
+    height: 1024px;
+    border: #000;
+}
+
+.hero-section {
+    height: 1024px;
+}
+
+.container-header {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.nav-bar {
+    width: 1235px;
+    height: 25px;
+    display: flex;
+    justify-content: right;
+    align-items:center;
+}
+
+.nav-bar img{
+    height: 20px;
+    margin-right: 785px;
+}
+
+.nav-links {
+    font-size: 16px;
+}
+
+.nav {
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.cta {
+    text-decoration: none;
+}
+
+.hero-image-rov {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 950px;
+    position: relative;
+}
+
+.hero-image-rov img {
+    margin-top: -100px;
+    position: absolute;
+    width: 1920px;
+    z-index: 1;
+}
+
+.quote-rov {
+    margin-top: 350px;
+    font-size: 100px;
+    font-weight:600;
+    mix-blend-mode: overlay;
+}
+
+.container-team-rpl-info {
+    height: auto;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-rpl-info {
+    width: 1235px;
+    display: flex;
+    flex-direction: column;
+    padding: 150px 0px;
+}
+
+.team-rpl-info h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-left: 0px;
+    color: #000;
+}
+
+.team-rpl-info p {
+    font-size: 24px;
+    margin-top: 28px;
+    color: #000;
+    text-align: justify;
+}
+
+.container-team-rpl-members {
+    /* display: none; */
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.members-title-holder {
+    height: 48px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.members-title-holder p {
+    font-size: 48px;
+    font-weight: 600;
+    transition-duration: 200ms;
+}
+
+.members-title-holder:hover > p {
+    letter-spacing: 5px;
+}
+
+.container-all-team-members {
+    width: 1025px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-team-members-row {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-team-members-row-end {
+    display: flex;
+    justify-content: center;
+}
+
+.container-team-member {
+    width: 185px;
+    height: 295px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 150ms;
+}
+
+.team-member {
+    width: 185px;
+    height: 250px;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.member-image {
+    width: 185px;
+    height: 250px;
+}
+
+.overlay-element {
+    height: 250px;
+    position: absolute;
+    left: -270px;
+}
+
+.container-team-member:hover > .team-member > .member-image {
+    filter: saturate(0%);
+}
+
+.container-team-member:hover > .team-member > .overlay-element {
+    mix-blend-mode: overlay;
+    animation-name: overlay-anima;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes overlay-anima {
+    0%   {left: -270px;}
+    100%  {left: 0px}
+}
+
+.container-team-member:hover > h1 {
+    color: var(--hover-orange);
+}
+
+.container-team-member:hover > p {
+    color: var(--hover-orange);
+}
+
+.container-team-member h1 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 12px;
+    margin-left: 0px;
+}
+
+.container-team-member p {
+    font-size: 12px;
+    font-weight: 500px;
+    margin-top: 5px;
+}
+
+.container-team-member-end {
+    width: 185px;
+    height: 295px;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 150ms;
+}
+
+.container-team-member-end h1 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 12px;
+    margin-left: 0px;
+}
+
+.container-team-member-end p {
+    font-size: 12px;
+    font-weight: 500px;
+    margin-top: 5px;
+}
+
+.container-team-member-end:hover > .team-member > .member-image {
+    filter: saturate(0%);
+}
+
+.container-team-member-end:hover > .team-member > .overlay-element {
+    mix-blend-mode: overlay;
+    animation-name: overlay-anima;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+}
+
+.container-team-member-end:hover > h1 {
+    color: var(--hover-orange);
+}
+
+.container-team-member-end:hover > p {
+    color: var(--hover-orange);
+}
+
+.achievements-section {
+    height: 975px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.achievements-title-holder {
+    height: 48px;
+    padding-top: 150px;
+    padding-bottom: 125px;
+}
+
+.achievements-title {
+    font-size: 48px;
+    font-weight: 600;
+    transition-duration: 200ms;
+}
+
+.achievements-title:hover {
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.achievements-1 {
+    display: flex;
+    flex-direction: row;
+    height: 205px;
+    margin-top: 55px;
+}
+
+.achievements-1:hover  {
+    background-color: #fff;
+}
+
+.achievements-1:hover > .info-holder > h1 {
+    color: #000;
+}
+
+.achievements-1:hover > .info-holder > h2 {
+    color: #000;
+}
+
+.achievements-1:hover > .info-holder > p {
+    color: #000;
+}
+
+.image-holder {
+    width: 290px;
+    height: 205px;
+}
+
+.image-holder img{
+    width: 290px;
+    height: 205px;
+}
+
+.info-holder {
+    position: relative;
+    width: 920px;
+    height: 205px;
+    margin-left: 50px;
+}
+
+.info-holder h1 {
+    position: absolute;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.info-holder h2 {
+    position: absolute;
+    margin-top: 48px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.info-holder p {
+    position: absolute;
+    margin-top: 148px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.footer-scetion {
+    height: 80px;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-footer {
+    height: 20px;
+    width: 1235px;
+    position: absolute;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-footer img {
+    height: 20px;
+}
+
+.container-socials {
+    height: 20px;
+    width: 200px;
+    border-left: 2px solid #000;
+    margin-left: 25px;
+    padding-left: 25px;
+    display: flex;
+}
+
+.container-socials-img {
+    padding-right: 15px;
+    height: 20px;
+}
+
+.container-footer p {
+    margin-left: 850px;
+    color: #000;
+    font-size: 20px;
+}

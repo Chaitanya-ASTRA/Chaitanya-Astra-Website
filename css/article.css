@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--poppins-font-colour);
+    color: #fff;
+}
+
+:root {
+    --poppins-font-colour: 'poppins', sans-serif;
+}
+
+@media screen and (max-width: 1279px) {
+    .main-section {
+      display: none;
+    }
+  }
+
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-section {
+    height: 1024px;
+}
+
+.container-header {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.nav-bar {
+    width: 1235px;
+    height: 25px;
+    display: flex;
+    justify-content: right;
+    align-items:center;
+}
+
+.nav-bar img{
+    height: 20px;
+    margin-right: 785px;
+}
+
+.nav-links {
+    font-size: 16px;
+}
+
+.nav {
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.cta {
+    text-decoration: none;
+}

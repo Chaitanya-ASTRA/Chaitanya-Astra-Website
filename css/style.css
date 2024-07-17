@@ -1,0 +1,624 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--poppins-font-colour);
+    color: #fff;
+}
+
+:root {
+    --poppins-font-colour: 'poppins', sans-serif;
+}
+
+@media screen and (max-width: 1279px) {
+    .main-section {
+      display: none;
+    }
+  }
+
+body {
+    background-image: url(./../Images/Hero_Section_Image_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-section {
+    width: 100%;
+    height: 1024px;
+    border: #000;
+}
+
+.hero-section {
+    height: 1024px;
+}
+
+.container-header {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.nav-bar {
+    width: 1235px;
+    height: 25px;
+    display: flex;
+    justify-content: right;
+    align-items:center;
+}
+
+.nav-bar img{
+    height: 20px;
+    margin-right: 785px;
+}
+
+.nav-links {
+    font-size: 16px;
+}
+
+.nav {
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.cta {
+    text-decoration: none;
+}
+
+.hero-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 950px;
+}
+
+.hero-image img {
+    width: 793px;
+    margin-top: 300px;
+    height: 150px;
+}
+
+.quote {
+    font-size: 65px;
+    font-weight:600;
+}
+
+.celeste-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 150px;
+    overflow: hidden;
+}
+
+.celeste-section video{
+    height: 1390px;
+    width: 1915px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.celeste-title-holder {
+    height: 48px;
+    margin-top: 150px;
+}
+
+.celeste-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: -1390px;
+    transition-duration: 200ms;
+    border-bottom: 8px solid red;
+}
+
+.celeste-title:hover {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.celeste-events {
+    height: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -1240px;
+}
+
+.circuit-Showdown-1 {
+    position: relative;
+    height: 280px;
+    width: 400px;
+    margin-right: 25px;
+    transition-duration: 150ms;
+}
+
+.circuit-Showdown-1:hover {
+    background-color: #fff;
+    font-weight: 500;
+}
+
+.circuit-Showdown-1 img {
+    position: absolute;
+    height: 180px;
+    width: 342;
+    mix-blend-mode: luminosity;
+    margin-top: 20px;
+    margin-left: 29px;
+    transition-duration: 150ms;
+}
+
+.circuit-Showdown-1:hover img {
+    position: absolute;
+    height: 200px;
+    width: 380;
+    mix-blend-mode: normal;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.circuit-Showdown-1 p {
+    position: absolute;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 238px;
+    margin-left: 29px;
+    transition-duration: 150ms;
+}
+
+.circuit-Showdown-1:hover p {
+    position: absolute;
+    font-size: 28px;
+    color: #000;
+    font-weight: 500;
+    margin-top: 238px;
+    margin-left: 10px;
+}
+
+.circuit-Showdown {
+    position: relative;
+    height: 280px;
+    width: 400px;
+    transition-duration: 150ms;
+}
+
+.circuit-Showdown:hover {
+    background-color: #fff;
+    font-weight: 500;
+}
+
+.circuit-Showdown img {
+    position: absolute;
+    height: 180px;
+    width: 342px;
+    mix-blend-mode: luminosity;
+    margin-top: 20px;
+    margin-left: 29px;
+    transition-duration: 150ms;
+}
+
+.circuit-Showdown:hover img {
+    position: absolute;
+    height: 200px;
+    width: 380px;
+    mix-blend-mode: normal;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.circuit-Showdown p {
+    position: absolute;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 238px;
+    margin-left: 29px;
+    transition-duration: 150ms;
+}
+
+.circuit-Showdown:hover p {
+    position: absolute;
+    font-size: 28px;
+    color: #000;
+    font-weight: 500;
+    margin-top: 238px;
+    margin-left: 10px;
+}
+
+.celeste-events-1 {
+    height: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.celeste-events-2 {
+    height: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.teams-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.team-rpl {
+    width: auto;
+    height: 550px;
+    position: relative;
+}
+
+.team-rpl img{ 
+    width: auto;
+    height: 550px;
+    mix-blend-mode: luminosity;
+}
+
+.team-rpl P {
+    position: absolute;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 258px;
+    margin-left: 863px;
+    z-index: 1;
+}
+
+.team-rpl:hover img {
+    mix-blend-mode: normal;
+}
+
+.team-rpl:hover p {
+    mix-blend-mode: overlay;
+}
+
+.team-rover {
+    width: auto;
+    height: 550px;
+    position: relative;
+}
+
+.team-rover img{
+    width: auto;
+    height: 550px;
+    mix-blend-mode: luminosity;
+}
+
+.team-rover P {
+    position: absolute;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 258px;
+    margin-left: 1120px;
+    z-index: 1;
+}
+
+.team-rover:hover img {
+    mix-blend-mode: normal;
+}
+
+.team-rover:hover p {
+    mix-blend-mode: overlay;
+}
+
+.team-satellite {
+    width: auto;
+    height: 550px;
+    position: relative;
+}
+
+.team-satellite P {
+    position: absolute;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 258px;
+    margin-left: 838px;
+    z-index: 1;
+}
+
+.team-satellite img{
+    width: auto;
+    height: 550px;
+    mix-blend-mode: luminosity;
+}
+
+.team-satellite:hover img {
+    mix-blend-mode: normal;
+}
+
+.team-satellite:hover p {
+    mix-blend-mode: overlay;
+}
+
+.article-section {
+    height: 650px;
+    background-color: #fff;
+}
+
+.article-holder {
+    height: 352px;
+    padding: 150px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.article-1 {
+    position: relative;
+    width: 395px;
+    height: 352px;
+    margin-right: 25px;
+}
+
+.article-1 img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 250px;
+}
+
+.article-1 h1 {
+    position: absolute;
+    top: 270px;
+    left: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+}
+
+.article-1 p {
+    position: absolute;
+    top: 328px;
+    left: 0px;
+    font-size: 12px;
+    color: #000;
+}
+
+.article-2 {
+    position: relative;
+    width: 395px;
+    height: 352px;
+}
+
+.article-2 img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 250px;
+}
+
+.article-2 h1 {
+    position: absolute;
+    top: 270px;
+    left: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+}
+
+.article-2 p {
+    position: absolute;
+    top: 328px;
+    left: 0px;
+    font-size: 12px;
+    color: #000;
+}
+
+.achievements-section {
+    height: 975px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.achievements-title-holder {
+    height: 48px;
+    padding-top: 150px;
+    padding-bottom: 125px;
+}
+
+.achievements-title {
+    font-size: 48px;
+    font-weight: 600;
+    transition-duration: 200ms;
+}
+
+.achievements-title:hover {
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.achievements-1 {
+    display: flex;
+    flex-direction: row;
+    height: 205px;
+    margin-top: 55px;
+}
+
+.achievements-1:hover  {
+    display: flex;
+    flex-direction: row;
+    height: 205px;
+    background-color: #fff;
+}
+
+.achievements-1:hover > .info-holder > h1 {
+    color: #000;
+}
+
+.achievements-1:hover > .info-holder > h2 {
+    color: #000;
+}
+
+.achievements-1:hover > .info-holder > p {
+    color: #000;
+}
+
+.image-holder {
+    width: 290px;
+    height: 205px;
+}
+
+.image-holder img{
+    width: 290px;
+    height: 205px;
+}
+
+.info-holder {
+    position: relative;
+    width: 920px;
+    height: 205px;
+    margin-left: 50px;
+}
+
+.info-holder h1 {
+    position: absolute;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.info-holder h2 {
+    position: absolute;
+    margin-top: 48px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.info-holder p {
+    position: absolute;
+    margin-top: 148px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.sponsor-section {
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+.sponsor-image-holder {
+    height: 80px;
+    margin-top: 100px;
+}
+
+.sponsor-image-holder img {
+    height: 80px;
+    margin-bottom: 100px;
+}
+
+.cta-section {
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/Images/Group\ 110_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cta-title-holder {
+    padding-top: 180px;
+    height: 48px;
+}
+
+.cta-title {
+    font-size: 48px;
+    font-weight: 600;
+    transition-duration: 200ms;
+    margin-bottom: 48px;
+}
+
+.cta-title:hover {
+    letter-spacing: 5px;
+}
+
+.cta-button {
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 25px;
+    margin-top: 55px;
+}
+
+.cta-button:hover {
+    height: 70px;
+    width: 140px;
+    border-radius: 35px;
+    margin-top: 45px;
+}
+
+.cta-button:hover > a {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.cta-button a {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-scetion {
+    height: 80px;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-footer {
+    height: 20px;
+    width: 1235px;
+    position: absolute;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-footer img {
+    height: 20px;
+}
+
+.container-socials {
+    height: 20px;
+    width: 200px;
+    border-left: 2px solid #000;
+    margin-left: 25px;
+    padding-left: 25px;
+    display: flex;
+}
+
+.container-socials-img {
+    padding-right: 15px;
+    height: 20px;
+}
+
+.container-footer p {
+    margin-left: 850px;
+    color: #000;
+    font-size: 20px;
+}
