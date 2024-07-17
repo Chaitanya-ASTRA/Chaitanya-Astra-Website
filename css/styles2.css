@@ -1630,7 +1630,7 @@ border-bottom: 2px solid red;
 
 .container-footer {
     height: 80px;
-    width: 1263px; 
+    max-width: 100vw; 
     position: absolute;
     margin: auto;
     display: flex;
