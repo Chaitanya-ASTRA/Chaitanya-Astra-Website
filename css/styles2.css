@@ -1323,26 +1323,6 @@ border-bottom: 2px solid red;
     border-radius: 15px;
 }
 
-.achievements:hover  {
-    display: flex;
-    flex-direction: row;
-    /* height: 205px; */
-    background-color: #fff;
-    border-radius: 15px;
-}
-
-.achievements:hover > .info-holder > h1 {
-    color: #000;
-}
-
-.achievements:hover > .info-holder > h2 {
-    color: #000;
-}
-
-.achievements:hover > .info-holder > p {
-    color: #000;
-}
-
 .image-holder {
     width: 290px;
     height: 205px;
