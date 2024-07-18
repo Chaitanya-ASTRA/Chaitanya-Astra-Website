@@ -332,6 +332,7 @@ a {
     z-index: 1;
     text-shadow:0.6px 0.6px #000;
     font-family: netron;
+    letter-spacing: 3px;
 }
 
 .quote-rov {
