@@ -1625,12 +1625,12 @@ border-bottom: 2px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 100vw; 
+    justify-content: space-between;
 }
 
 .container-footer {
     height: 80px;
-    max-width: 100vw; 
+    width: 98.749vw; 
     position: absolute;
     margin: auto;
     display: flex;
@@ -1659,7 +1659,7 @@ border-bottom: 2px solid red;
 }
 
 .container-footer p {
-    margin-left: 850px;
+    margin-left: auto;
     color: #000;
     font-size: 20px;
 }
@@ -2174,7 +2174,7 @@ border-bottom: 2px solid red;
         margin-top: -2550px; 
         align-items: center;
         justify-content: center;
-        margin-left: 20px;
+        margin-left: 8px;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -2310,7 +2310,7 @@ border-bottom: 2px solid red;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        margin-left: 20px;
+        margin-left: 8px;
         justify-content: center;
         row-gap: 10px;
         
@@ -2325,7 +2325,7 @@ border-bottom: 2px solid red;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        margin-left: 20px;
+        margin-left: 8px;
         row-gap: 10px;
     }
     
