@@ -182,6 +182,11 @@
     src: url(../fonts/NowAlt-Thin.otf);
 }
 
+@font-face{
+    font-family: anurati;
+    src: url(./Anurati-Regular.otf);
+}
+
 .nav {
     margin-right: 50px;
     font-family:zeroes-II;
@@ -317,7 +322,7 @@ a {
     font-size: 55px;
     font-weight:600;
     margin-top: 20px;
-    font-family: netron;
+    font-family:anurati;
 }
 
 .quote-abt {
