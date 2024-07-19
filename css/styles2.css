@@ -191,7 +191,10 @@
     font-family:blanka;
     src: url(../fonts/Blanka-Regular.otf);
 }
-
+@font-face {
+    font-family:aquire-B;
+    src: url(../fonts/AquireBold-8Ma60.otf);
+}
 .nav {
     margin-right: 50px;
     font-family:zeroes-II;
@@ -327,7 +330,7 @@ a {
     font-size: 55px;
     font-weight:600;
     margin-top: 20px;
-    font-family:anurati ;
+    font-family:aquire-B;
     letter-spacing: 4px;
 }
 
@@ -337,7 +340,7 @@ a {
     color: #fff;
     z-index: 1;
     text-shadow:0.6px 0.6px #000;
-    font-family: anurati;
+    font-family: aquire-B;
     letter-spacing: 4px;
 }
 
@@ -364,13 +367,13 @@ a {
 }
 
 .quote-rpl p {
-    font-family: netron;
+    font-family: aquire-B;
 }
 .quote-rov p{
-    font-family: netron;
+    font-family: aquire-B;
 }
 .quote-sat p{
-    font-family: netron;
+    font-family: aquire-B;
 }
 
 .quote-event {
