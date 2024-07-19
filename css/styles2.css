@@ -475,7 +475,7 @@ border-bottom: 2px solid red;
     margin-top: 20px;
     margin-left: 29px;
     transition-duration: 150ms;
-    border-radius: 15px;
+    border-radius: 8.5px;
 }
 
 .circuit-Showdown-1:hover img {
@@ -527,7 +527,7 @@ border-bottom: 2px solid red;
     margin-top: 20px;
     margin-left: 29px;
     transition-duration: 150ms;
-    border-radius: 15px;
+    border-radius: 8.5px;
 }
 
 .circuit-Showdown:hover img {
@@ -2231,7 +2231,7 @@ border-bottom: 2px solid red;
         
         mix-blend-mode: normal;
         transition-duration: 150ms;
-        border-radius: 15px;
+        border-radius: 8.5px;
         display: flex;
         align-self: center;
         
@@ -2293,7 +2293,7 @@ border-bottom: 2px solid red;
         
         mix-blend-mode: normal;
         transition-duration: 150ms;
-        border-radius: 15px;
+        border-radius: 8.5px;
         display: flex;
         align-self: center;
     }
