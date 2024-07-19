@@ -331,7 +331,7 @@ a {
     font-weight:600;
     margin-top: 20px;
     font-family:aquire-B;
-    letter-spacing: 4px;
+    
 }
 
 .quote-abt {
@@ -341,7 +341,6 @@ a {
     z-index: 1;
     text-shadow:0.6px 0.6px #000;
     font-family: aquire-B;
-    letter-spacing: 4px;
 }
 
 .quote-rov {
@@ -2077,6 +2076,8 @@ border-bottom: 2px solid red;
         font-size: 20px;
         font-weight:600;
         text-align: center;
+        font-family:aquire-B;
+        
     }
     
     .quote-abt {
@@ -2084,6 +2085,8 @@ border-bottom: 2px solid red;
         font-size: 20px;
         font-weight:600;
         text-align: center;
+        font-family:aquire-B;
+        
     }
     
     .quote-rov {
