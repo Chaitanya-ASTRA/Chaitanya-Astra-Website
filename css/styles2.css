@@ -327,8 +327,8 @@ a {
     font-size: 55px;
     font-weight:600;
     margin-top: 20px;
-    font-family:netron;
-    letter-spacing: 3px;
+    font-family:anurati;
+    letter-spacing: 4px;
 }
 
 .quote-abt {
@@ -337,8 +337,8 @@ a {
     color: #fff;
     z-index: 1;
     text-shadow:0.6px 0.6px #000;
-    font-family: netron;
-    
+    font-family: anurati;
+    letter-spacing: 4px;
 }
 
 .quote-rov {
