@@ -1679,7 +1679,7 @@ border-bottom: 2px solid red;
 }
 
 /* experimenting */
-@media (min-width:300px) and (max-width:450px){
+@media (min-width:300px) and (max-width:1000px){
     * {
         margin: 0px;
         padding: 0px;
