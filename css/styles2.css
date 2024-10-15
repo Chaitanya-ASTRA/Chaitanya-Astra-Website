@@ -2921,7 +2921,9 @@ border-bottom: 2px solid red;
         text-align: center;
         font-family: aquire-B;
     }
-    
+    .abt-memb-title p{
+        font-size: 26px;
+    }
     .members-title-holder:hover > p {
         letter-spacing: 5px;
     }
@@ -3015,12 +3017,12 @@ border-bottom: 2px solid red;
     }
     
     .cont-pos{
-        margin-right: -185px;
+        margin-right: -55vw;
         text-align: center;
     }
 
     .abt-h1{
-        font-size: 25px;
+        font-size: 22.5px;
     }
     .cont-pos2{
         margin-left: 5px;
@@ -3028,6 +3030,10 @@ border-bottom: 2px solid red;
 
     .cont-pos3{
         margin-left: 0px;
+    }
+    .cont-pos4{
+        margin-right: -50vw;
+        text-align: center;
     }
 
     .container-teamrpl-member {
